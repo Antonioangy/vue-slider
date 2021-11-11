@@ -1,7 +1,8 @@
 
 var carousel = new Vue ({
-    el: "immagini",
+    el: ".container",
     data: {
+        title: 'Titolo',
         slides: [
             {
                 image: 'img/01.jpg',
@@ -30,6 +31,14 @@ var carousel = new Vue ({
             },
         ]
     },
+    methods: {
+        prevSlide: function() {
+            console.log('prevSlide');
+        },
+        nextSlide: function() {
+            console.log('nextSlide');
+        },
+    }
 })
 
 

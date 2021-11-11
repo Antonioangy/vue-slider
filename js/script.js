@@ -2,7 +2,6 @@
 var carousel = new Vue ({
     el: ".container",
     data: {
-        title: 'Titolo',
         slides: [
             {
                 image: 'img/01.jpg',
